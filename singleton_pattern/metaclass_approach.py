@@ -19,8 +19,8 @@ class Logger(metaclass=SingletonMeta):
         self.logs.append(message)
         print(f"[LOG] {message}")
 
-    def get_log(self):
-        return self.log
+    def get_logs(self):
+        return self.logs
 
 
 logger1 = Logger()
